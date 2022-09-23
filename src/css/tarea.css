@@ -1,0 +1,49 @@
+.contenedor-tarea{
+    width: 95%;
+    min-height: 70px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1b1b32;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.526);
+    color: white;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.texto-tarea{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 6px;
+    width: 60%;
+    overflow-wrap: anywhere;/*si el texto es muy largo, hace que comience en la siguiente linea*/
+}
+
+.icono-tarea{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.icono{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+}
+
+.completa{
+    background-color: #5a01a7;
+    text-decoration: line-through;
+}
+
+.contenedor-tarea:hover{
+    background-color: #30303a;
+}
+
+@media (min-width: 700px){
+    .texto-tarea{
+        font-size: 1.5rem;
+    }
+}

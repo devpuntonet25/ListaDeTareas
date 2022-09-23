@@ -1,0 +1,19 @@
+.todolist__logocontainer{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.todolist__logo{
+    width: 100%;
+    height: 50px;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (min-width: 700px){
+    .todolist__logo{
+        height: 80px;
+        max-width: 400px;
+    }
+}
